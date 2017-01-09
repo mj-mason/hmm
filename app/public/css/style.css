@@ -9,6 +9,7 @@
 }
 
 body, html, .starlight{
+    height: 100% !important;
     background-color: #6a288a !important;
 }
 
