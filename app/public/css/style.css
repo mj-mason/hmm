@@ -1,0 +1,29 @@
+@font-face {
+    font-family: 'Serendity Script';
+    src: url('../fonts/Serendity_Script.eot'), /* IE9 Compat Modes */
+    url('../fonts/Serendity_Script.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+    url('../fonts/Serendity_Script.woff2') format('woff2'), /* Super Modern Browsers */
+    url('../fonts/Serendity_Script.woff') format('woff'), /* Pretty Modern Browsers */
+    url('../fonts/Serendity_Script.ttf')  format('truetype'), /* Safari, Android, iOS */
+    url('../fonts/Serendity_Script.svg#svgFontName') format('svg'); /* Legacy iOS */
+}
+
+body, html, .starlight{
+    background-color: #6a288a !important;
+}
+
+.cursive{
+    font-family: 'Serendity Script', serif;
+}
+
+.bigtext{
+    font-size: 4em;
+}
+
+.yellow-text{
+    color: #ffe860
+}
+
+.white-text{
+    color: #FFFFFF
+}
