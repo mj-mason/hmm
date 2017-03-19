@@ -7,7 +7,15 @@ html
     meta(name="viewport", content="width=device-width, initial-scale=1")
     link(rel='stylesheet', href='/css/style.css')
     link(rel="stylesheet", href="/css/bootstrap.min.css")
-  body.starlight
-    block content
-    script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.1/jquery.min.js')
-    script(src='/js/starlight.js')
+  body
+    ul#scene(style='height: 100%')
+      li.layer.starlight-front(data-depth="0.25")
+      li.layer.starlight-mid(data-depth="0.20")
+      li.layer.starlight-back(data-depth="0.15")
+      li.layer.starlight-more-back(data-depth="0.10")
+      li.layer.starlight-super-back(data-depth="0.05")
+      li.layer(data-depth="0")
+        block content
+  script(src='https://cdnjs.cloudflare.com/ajax/libs/jquery/1.9.0/jquery.min.js')
+  script(src="https://cdnjs.cloudflare.com/ajax/libs/parallax/2.1.3/jquery.parallax.min.js")
+  script(src='/js/starlight.js')
