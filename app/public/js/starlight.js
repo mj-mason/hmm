@@ -1,14 +1,3 @@
-/*Starlight.js: A sparkling visual effects library
- Created by Serj Babayan
- View on Github at https://www.github.com/sergei1152/Starlight.js
- Licence: MIT
- */
-
-//TODO Fix resizing issues
-//TODO 1: ADD SVG support
-//TODO 2: FIX the keep_list true and rotation false instant expand glitch
-
-//this is if you want to really customize how the stars appear
 var advanced_configuration = {
     expand_transition_timing: "linear", //could be ease, ease-in, ease-out, etc
     expand_delay: "0s",  //how long until the star starts to expand
@@ -58,30 +47,12 @@ Star.prototype.create = function (parent_element, id, config) {
 
     //sets transition css properties of the star
     setTimeout(function () {
-        // star_container.css({ //size expand properties
-        //     transition: "height " + config.expand_speed + " " + advanced_configuration.expand_transition_timing + " " + advanced_configuration.expand_delay + "," +
-        //     "width " + config.expand_speed + " " + advanced_configuration.expand_transition_timing + " " + advanced_configuration.expand_delay,
-        //     width: config.final_size,
-        //     height: config.final_size
-        // });
-        //
-        // //because transition properties override each other, have to create a variable for transition and append transitions on to it
-        // if (config.rotation) { //rotation properties
-        //     star.css({
-        //         transform: "rotate(" + advanced_configuration.rotation_angle + ")"
-        //     });
-        //     var transition = advanced_configuration.rotation_duration + " " + advanced_configuration.rotation_transition_timing + " " + advanced_configuration.rotation_delay;
-        // }
 
         star.css({
             opacity: 0
         });
-        // if (transition) {
-        //     transition += ",opacity " + config.fade_duration + " " + advanced_configuration.fade_transition_timing + " " + config.fade_delay;
-        // }
-        // else {
+
         var transition = "opacity " + config.fade_duration + " " + advanced_configuration.fade_transition_timing + " " + config.fade_delay;
-        // }
 
         //removes the element from the dom after it fades out
         setTimeout(function () {
