@@ -21,15 +21,29 @@ body, html, .starlight{
     background-color: #501770;
 }
 
-.navbar-hmm a{
+ul.navbar-nav > li > a{
     color: white;
+    background-color: #501770;
 }
 
-ul.navbar-nav > li > a:hover, ul.navbar-nav > li.active > a, .navbar-hmm a:hover{
+ul.navbar-nav > li > a:focus{
+    background-color: #501770;
+}
+
+ul.navbar-nav > li > a:hover, ul.navbar-nav > li.active > a{
     color: purple;
     border-radius: 10px;
-    /*background-image: radial-gradient(50% 50%, yellow, yellow, #501770);*/
+    padding: 7px;
+    margin: 8px;
     background-color: yellow;
+}
+
+.navbar-brand > span{
+    color: yellow;
+}
+
+.navbar-brand > span:hover{
+    color: lightyellow;
 }
 
 .layer{
