@@ -85,7 +85,7 @@ function init_starlight(config) {
         fade_delay: "2s", //how long until the star fades out
         fade_duration: "1s", //how long the star fades for
         colors: ["#ffe860"], //The variety of colors of the stars. Can be any CSS complient color (eg. HEX, rgba, hsl)
-        frequency: 300, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
+        frequency: 200, //how often a new wave of stars pop-out (in milliseconds. Bigger==longer)
         density: 1,//how many stars pop out per wave
         keep_lit: false, //whether the stars disappear after they are created
         rotation: false, //whether the stars rotate through out their expansion

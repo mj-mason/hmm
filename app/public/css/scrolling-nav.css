@@ -37,43 +37,43 @@ of those sections to manage the look and feel of the site. */
     text-align: center;
 }
 
-.story-section {
-    height: 100%;
-    padding-top: 90px;
+.timer-section {
+    padding-top: 30px;
+    padding-bottom: 30px;
     text-align: center;
-    background: #eee;
+    background: #fbfbfb;
 }
 
 .events-section {
     height: 100%;
     padding-top: 90px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .hotels-section {
     height: 100%;
     padding-top: 90px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 
 .reno-section {
     height: 100%;
     padding-top: 90px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }
 
 .registry-section {
     height: 100%;
     padding-top: 90px;
     text-align: center;
-    background: #eee;
+    background: #fff;
 }
 .contact-section {
     height: 100%;
     padding-top: 90px;
     text-align: center;
-    background: #fff;
+    background: #eee;
 }

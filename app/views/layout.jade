@@ -35,7 +35,7 @@ html
                         li.hidden
                             a.page-scroll(href='#page-top')
                         li
-                            a.page-scroll(href='#story') Our Story
+                            a.page-scroll(href='#timer') Time
                         li
                             a.page-scroll(href='#events') Events
                         li
@@ -72,13 +72,23 @@ html
                             .col-xs-12
                                 h1.yellow-text.cursive.bigtext Holly Marie Spohn &
                                 h1.yellow-text.cursive.bigtext Michael Joseph Mason
-        section#story.story-section
+        section#timer.timer-section
             .container
                 .row
-                    .col-lg-12
-                        h1 Our Story
-                        p Purple hurr don't curr
-        section#events.events-section
+                    .col-lg-3.col-lg-offset-1
+                        img(src='/img/bride.png', height='200px')
+                    .col-lg-4
+                        h1(style='font-size: 5em;')
+                            script.
+                                var startd = new Date();
+                                var endd = new Date("2017-10-08");
+                                var diff = new Date(endd - startd);
+                                var days = diff / 1000 / 60 / 60 / 24;
+                                document.write(Math.max(Math.ceil(days), 0));
+                        h1 Days Remaining
+                    .col-lg-3
+                        img(src='/img/groom.png', height='200px')
+    section#events.events-section
             .container
                 .row
                     .col-lg-12
