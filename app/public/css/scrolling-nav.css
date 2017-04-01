@@ -27,53 +27,85 @@ html {
     }
 }
 
-/* Demo Sections - You can use these as guides or delete them - the scroller will work with any sort of height, fixed, undefined, or percentage based.
-The padding is very important to make sure the scrollspy picks up the right area when scrolled to. Adjust the margin and padding of sections and children 
-of those sections to manage the look and feel of the site. */
+.font-indie {
+    font-family: 'Indie Flower', cursive;
+}
+.font-handlee {
+    font-family: 'Handlee', cursive;
+}
+.font-oleo {
+    font-family: 'Oleo Script', cursive;
+}
+.font-marck {
+    font-family: 'Marck Script', cursive;
+}
+.font-gochi {
+    font-family: 'Gochi Hand', cursive;
+}
+.font-freckle {
+    font-family: 'Freckle Face', cursive;
+}
+.font-cabin{
+    font-family: 'Cabin Sketch', sans-serif;
+}
+.font-limelight{
+    font-family: 'Limelight', sans-serif;
+}
+
+.days-counter{
+    font-family: 'Limelight', sans-serif;
+    font-size: 7em;
+}
+
+section{
+    min-height: 100%;
+    padding-top: 50px;
+    padding-bottom: 30px;
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: 'Limelight', cursive;
+}
+section p {
+    font-family: 'Indie Flower', cursive;
+    font-size: 1.5em;
+}
+
+section strong{
+    font-family: 'Indie Flower', cursive;
+    font-size: 2em;
+    font-weight: bolder;
+}
 
 .intro-section {
+    padding-top: 60px;
     height: 100%;
-    padding-top: 90px;
-    text-align: center;
 }
 
 .timer-section {
-    padding-top: 30px;
-    padding-bottom: 30px;
-    text-align: center;
-    background: #fbfbfb;
+    min-height: 0;
+    background: lightyellow;
 }
 
 .events-section {
-    height: 100%;
-    padding-top: 90px;
-    text-align: center;
-    background: #eee;
+    background: #6a288a;
+    color: white;
 }
 
 .hotels-section {
-    height: 100%;
-    padding-top: 90px;
-    text-align: center;
-    background: #fff;
+    background: lightyellow;
 }
 
 .reno-section {
-    height: 100%;
-    padding-top: 90px;
-    text-align: center;
-    background: #eee;
+    background: #6a288a;
+    color: white;
 }
 
 .registry-section {
-    height: 100%;
-    padding-top: 90px;
-    text-align: center;
-    background: #fff;
+    background: lightyellow;
 }
 .contact-section {
-    height: 100%;
-    padding-top: 90px;
-    text-align: center;
-    background: #eee;
+    background: #6a288a;
+    color: white;
 }
