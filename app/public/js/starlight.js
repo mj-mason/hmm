@@ -177,4 +177,13 @@ $(function(){
         scalarX: 25,
         scalarY: 25
     })
+
+
+    $('.nav a').on('click', function(){
+        if ($('.navbar-collapse').attr('aria-expanded') == 'true'){
+            $('.navbar-toggle').click();
+        }
+    });
 });
+
+

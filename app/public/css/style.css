@@ -36,10 +36,15 @@ hr.purple-split{
 ul.navbar-nav > li > a{
     color: white;
     background-color: #501770;
+    padding: 7px;
+    margin: 8px;
 }
 
 ul.navbar-nav > li > a:focus{
     background-color: #501770;
+    border-radius: 10px;
+    padding: 7px;
+    margin: 8px;
 }
 
 ul.navbar-nav > li > a:hover, ul.navbar-nav > li.active > a{
