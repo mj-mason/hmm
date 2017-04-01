@@ -74,9 +74,9 @@ html
         section#timer.timer-section
             .container
                 .row
-                    .col-lg-3.col-lg-offset-1
+                    .col-md-3.col-md-offset-1
                         img(src='/img/bride.png', height='200px')
-                    .col-lg-4
+                    .col-md-4
                         h1.days-counter
                             script.
                                 var startd = new Date();
@@ -85,7 +85,7 @@ html
                                 var days = diff / 1000 / 60 / 60 / 24;
                                 document.write(Math.max(Math.ceil(days), 0));
                         h1 Days Remaining
-                    .col-lg-3
+                    .col-md-3
                         img(src='/img/groom.png', height='200px')
         section#events.events-section
             .container
@@ -96,18 +96,20 @@ html
                 .row
                     hr.purple-split
                 .row
-                    .col-md-3
-                        img.event-location(src='/img/stamp.jpg')
+                    .col-md-3.vertical-center
+                        img.event-location.center-block(src='/img/stamp.jpg')
                     .col-md-9.text-left
                         h2 Stamp Social Club
                         p Join us Saturday night for a chill (optional) evening of fresh cocktails, beer and wine in a funky new downtown setting. Stamp Social Club is part of The Basement Reno, located beneath the historic 1933 U.S. Post Office. Inspired by global travel, Stamp serves creative cocktails and elevated hospitality in a positive, social atmosphere. The first round is on us! No need to RSVP, just come and go as you please. If you’re looking for a place to grab dinner there are plenty of diverse options in the downtown area, or close by in the Midtown district. Feel free to contact us for more specific dinner recommendations.
                 .row
+                    .col-md-3.hidden-md.hidden-lg
+                        img.event-location.center-block(src="/img/grove.jpg")
                     .col-md-9.text-left
                         h2 The Grove
                         p Our ceremony will be outdoors on the patio and will start at 4pm. Feel free to arrive early and enjoy some live brass quintet music and beautiful mountain views pre-ceremony. Immediately following the ceremony the party will move indoors for a night of celebration. Cocktails and passed appetizers will keep your palette piqued until our seated dinner begins at 5:30 in the Great Room.
                         p Make sure you request your favorite songs to keep those toes a tappin! We’ll see you out on the dance floor!
-                    .col-md-3
-                        img.event-location(src="/img/grove.jpg")
+                    .col-md-3.hidden-sm.hidden-xs
+                        img.event-location.center-block(src="/img/grove.jpg")
                 //.col-lg-12
                         h1.font-freckle Freckle
                         p.font-freckle Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam eget metus vitae dolor rhoncus vulputate quis eget mauris. Sed interdum ex nec metus mattis varius. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Ut eget varius ipsum, maximus posuere libero. Pellentesque consequat, quam at iaculis porta, purus nisl rhoncus tellus, sit amet lobortis sapien eros nec nunc. Ut auctor, risus vitae viverra egestas, leo risus lacinia justo, sed rutrum diam purus eu nibh. Suspendisse at dui aliquam, condimentum mauris in, accumsan ex. Vivamus ultricies orci volutpat, scelerisque arcu eu, gravida metus. Pellentesque gravida, mi aliquam ultricies consectetur, justo turpis condimentum ex, in varius mi magna id massa. Vivamus dictum dignissim libero non tempor. Nulla auctor placerat libero, non bibendum mi bibendum in. Sed vehicula odio quam, sed suscipit est lobortis at. Vestibulum fermentum imperdiet tortor, blandit sagittis sapien laoreet quis.

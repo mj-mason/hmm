@@ -20,11 +20,17 @@ hr.purple-split{
     padding: 0; }
 
 .event-location{
-    width: 250px;
-    border-radius: 125px;
+    width: 100%;
+    max-width: 300px;
+    border-radius: 150px;
     border-style: solid;
     border-color: yellow;
     border-width: 3px;
+}
+
+.vertical-center {
+    display: flex;
+    align-items: center;
 }
 
 ul.navbar-nav > li > a{
@@ -70,4 +76,27 @@ ul.navbar-nav > li.active > a{
 
 .white-text{
     color: #FFFFFF
+}
+
+/* Small devices (tablets, 768px and up) */
+/*@media (min-width: @screen-sm-min) { ... }*/
+
+/* Medium devices (desktops, 992px and up) */
+@media (min-width: 992px) {
+    #events .row{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
+}
+
+/* Large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+    #events .row{
+        display: -webkit-box;
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: flex;
+    }
 }
