@@ -153,6 +153,13 @@ section strong{
     height: 100%;
 }
 
+@media (max-width: 992px) {
+    .intro-section {
+        padding-top: 20px;
+        min-height: 680px;
+    }
+}
+
 .timer-section {
     min-height: 0;
     background: lightyellow;
