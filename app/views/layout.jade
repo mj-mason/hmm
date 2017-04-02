@@ -92,7 +92,7 @@ html
                     .col-lg-12
                         h1 Wedding Events
                         p We are stoked to share our big day with you on Sunday! We’ve also planned a pre-wedding gathering if you’d like to hang out with us even more.
-                .row
+                .row.hidden-sm.hidden-xs
                     hr.purple-split
                 .row
                     .col-md-3.vertical-center
@@ -129,10 +129,33 @@ html
                 .row
                     .col-lg-12.text-left
                         h1.text-center Accomodations
-                        p We have reserved a block of rooms at The Marriott Residence Inn, an all-suite hotel located 0.7 miles from The Grove. Rates are $119/night for a studio or 1-bedroom suite, or $199/night for a 2-bedroom suite, as long as you mention the “Mason and Spohn Wedding Room Block”. You may also follow the link below to book directly online.
+                        h2 Group Rate Hotel
+                        a(href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Mason%20and%20Spohn%20Wedding%20Block%5ERNORI%60SWZSWZA%7CSWZSWZB%7CSWZSWZC%60119-199%60USD%60false%605%6010/7/17%6010/9/17%609/7/17&amp;app=resvlink&amp;stop_mobi=yes")
+                            h4.
+                                The Marriott Residence Inn<br>
+                                9845 Gateway Drive<br>
+                                Reno, NV 89521<br>
+                                (775) 853-8800
+                        p We have reserved a block of rooms at The Marriott Residence Inn, an all-suite hotel located 0.7 miles from The Grove. Rates are $119/night for a studio or 1-bedroom suite, or $199/night for a 2-bedroom suite, as long as you mention the “Mason and Spohn Wedding Room Block”. You may also <a href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Mason%20and%20Spohn%20Wedding%20Block%5ERNORI%60SWZSWZA%7CSWZSWZB%7CSWZSWZC%60119-199%60USD%60false%605%6010/7/17%6010/9/17%609/7/17&amp;app=resvlink&amp;stop_mobi=yes" target="_blank">click here to book directly online</a>.
                         strong You must book BEFORE Thursday, September 7th, 2017 in order to receive these rates.
                         p This group rate includes shuttle to and from the airport (8a-8p), as well as a shuttle to and from The Grove up until 10pm. The Marriott asks that you request shuttle service at least a day in advance. Complimentary hot buffet breakfast and a kitchen/kitchenette are also included in this rate.
                         p These group rates will be valid 2 days pre and post event based upon availability as well. Please note, you will need to call the hotel directly in order to book a room for extra days pre or post event, just ask for Aaron or Jared.
+                        h2 Other Hotels
+                        p There is a Hilton hotel just around the corner from The Residence Inn:
+                        a(href="http://hiltongardeninn3.hilton.com/en/hotels/nevada/hilton-garden-inn-reno-RNOGIGI/index.htmlhttp://hiltongardeninn3.hilton.com/en/hotels/nevada/hilton-garden-inn-reno-RNOGIGI/index.html", target="_blank")
+                            h4.
+                                The Hilton Garden Inn<br>
+                                9920 Double R Blvd<br>
+                                Reno, NV 89521<br>
+                                (775) 850-9700
+                        p There are additional hotels/brands elsewhere in the Reno area. There are also casino hotels in downtown Reno.
+                        p The following map snippet shows The Grove (wedding venue) located on the south side of Reno just west of highway 395/580; the hotels mentioned above are on the east side of the highway.
+                .row
+                    .col-lg-12.text-center
+                        //a.btn.btn-primary(role='button', data-toggle='collapse', href='#collapseExample', aria-expanded='true', aria-controls='collapseExample')
+                            | Toggle Map
+                        //#collapseExample.collapse(style="padding-top: 20px;")
+                        iframe(src="https://www.google.com/maps/d/embed?mid=13s7Qet9Dp5-zMq6AiyS-4H1_gvc&hl=en", width="75%", height="480")
         section#reno.reno-section
             .container
                 .row

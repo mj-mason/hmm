@@ -17,7 +17,9 @@ hr.purple-split{
     border: 0;
     border-top: 1px solid yellow;
     margin: 1em 0;
-    padding: 0; }
+    padding: 0;
+    width: 100%;
+}
 
 .event-location{
     width: 100%;
