@@ -78,11 +78,11 @@ html
                     .col-md-4
                         h1.days-counter
                             script.
-                                var startd = new Date();
-                                var endd = new Date("2017-10-08");
+                                var startd = Date.now();
+                                var endd = Date.parse('Sun, 08 Oct 2017 16:00:00 PDT');
                                 var diff = new Date(endd - startd);
                                 var days = diff / 1000 / 60 / 60 / 24;
-                                document.write(Math.max(Math.ceil(days), 0));
+                                document.write(Math.max(Math.floor(days), 0));
                         h1 Days Remaining
                     .col-md-3
                         img(src='/img/groom.png', height='200px')
@@ -96,19 +96,34 @@ html
                     hr.purple-split
                 .row
                     .col-md-3.vertical-center
-                        img.event-location.center-block(src='/img/stamp.jpg')
+                        a(href='https://www.facebook.com/StampSocialClub', target='_blank')
+                            img.event-location.center-block(src='/img/stamp.jpg')
                     .col-md-9.text-left
-                        h2 Stamp Social Club
+                        h2 Pre-Wedding Gathering on the Night Before
+                        h4 Saturday, October 7th, 7pm - 9pm
+                        a(href='https://goo.gl/maps/9tuJ46MetaQ2', target='_blank')
+                            h4.
+                                Stamp Social Club @ The Basement<br>
+                                50 Virginia Street<br>
+                                Reno, NV  89501
                         p Join us Saturday night for a chill (optional) evening of fresh cocktails, beer and wine in a funky new downtown setting. Stamp Social Club is part of The Basement Reno, located beneath the historic 1933 U.S. Post Office. Inspired by global travel, Stamp serves creative cocktails and elevated hospitality in a positive, social atmosphere. The first round is on us! No need to RSVP, just come and go as you please. If you’re looking for a place to grab dinner there are plenty of diverse options in the downtown area, or close by in the Midtown district. Feel free to contact us for more specific dinner recommendations.
                 .row
                     .col-md-3.hidden-md.hidden-lg
-                        img.event-location.center-block(src="/img/grove.jpg")
+                        a(href='http://www.thegrovereno.com/', target='_blank')
+                            img.event-location.center-block(src="/img/grove.jpg")
                     .col-md-9.text-left
-                        h2 The Grove
+                        h2 Wedding Day
+                        h4 Sunday, October 8th, 4pm - 10pm
+                        a(href='https://goo.gl/maps/tGUcCJXNbpw', target='_blank')
+                            h4.
+                                The Grove<br>
+                                95 Foothill Road<br>
+                                Reno, NV  89511
                         p Our ceremony will be outdoors on the patio and will start at 4pm. Feel free to arrive early and enjoy some live brass quintet music and beautiful mountain views pre-ceremony. Immediately following the ceremony the party will move indoors for a night of celebration. Cocktails and passed appetizers will keep your palette piqued until our seated dinner begins at 5:30 in the Great Room.
                         p Make sure you request your favorite songs to keep those toes a tappin! We’ll see you out on the dance floor!
                     .col-md-3.hidden-sm.hidden-xs
-                        img.event-location.center-block(src="/img/grove.jpg")
+                        a(href='http://www.thegrovereno.com/', target='_blank')
+                            img.event-location.center-block(src="/img/grove.jpg")
         section#hotels.hotels-section
             .container
                 .row

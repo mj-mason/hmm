@@ -162,11 +162,16 @@ section strong{
 
 .timer-section {
     min-height: 0;
+    padding-top: 30px;
     background: lightyellow;
 }
 
 .events-section {
     background: #6a288a;
+    color: white;
+}
+
+#events a{
     color: white;
 }
 
