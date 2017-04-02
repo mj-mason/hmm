@@ -31,6 +31,7 @@ hr.purple-split{
 .vertical-center {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 ul.navbar-nav > li > a{
