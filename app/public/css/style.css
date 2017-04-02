@@ -11,6 +11,15 @@ body, html, .starlight{
     background-color: #501770;
 }
 
+.overlay {
+    background:transparent;
+    position:relative;
+    width:75%;
+    height:480px; /* your iframe height */
+    top:480px;  /* your iframe height */
+    margin-top:-480px;  /* your iframe height */
+}
+
 hr.purple-split{
     display: block;
     height: 1px;
