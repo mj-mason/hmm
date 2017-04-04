@@ -4,6 +4,7 @@ body{
 
 body, html, .starlight{
     height: 100% !important;
+    width: 100% !important;
     background-color: transparent; /* #6a288a !important; */
 }
 
