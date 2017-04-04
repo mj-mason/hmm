@@ -222,8 +222,10 @@ section strong{
     background: lightyellow;
 }
 .contact-section {
+    height: 100%;
     background: #6a288a;
     color: white;
+    margin-bottom: 50px;
 }
 
 /* Small devices (tablets, 768px and up) */

@@ -178,6 +178,10 @@ $(function(){
         scalarY: 25
     })
 
+    $('#scene2').parallax({
+        scalarX: 25,
+        scalarY: 25
+    })
 
     $('.nav a').on('click', function(){
         if ($('.navbar-collapse').attr('aria-expanded') == 'true'){

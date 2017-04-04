@@ -179,23 +179,30 @@ html
                     .col-md-6.col-md-offset-3
                         a(href="https://smile.amazon.com/wedding/holly-spohn-mike-mason-reno-october-2017/registry/1I3W28RF85GAD", target="_blank")
                             img(src='/img/amazon.png', style='width: 70%')
-        section#contact.contact-section.vertical-center
-            .container.center-block
-                .row
-                    h1 Contact Us
-                .row
-                    h2 Please email us to:
-                .row
-                    p Request a song
-                    p Ask a question
-                    p Tell us a joke
-                    p Just to say hi!
-                .row
-                    h3
-                        a(href="mailto:HollyAndMikeMasonWedding@gmail.com", style="color: white;") HollyAndMikeMasonWedding@gmail.com
-                .row
-                    .col-md-6.col-md-offset-3
-                        img.footer-image(src='/img/wine_time.jpg', width='100%')
+        section#contact.contact-section
+            ul#scene2(style='height: 100%;')
+                li.layer.starlight-front(data-depth="0.25")
+                li.layer.starlight-mid(data-depth="0.20")
+                li.layer.starlight-back(data-depth="0.15")
+                li.layer.starlight-more-back(data-depth="0.10")
+                li.layer.starlight-super-back(data-depth="0.05")
+                li.layer#scene-2-root-layer(data-depth="0")
+                    .container.text-center
+                        .row
+                            h1 Contact Us
+                        .row
+                            h2 Please email us to:
+                        .row
+                            p Request a song
+                            p Ask a question
+                            p Tell us a joke
+                            p Just to say hi!
+                        .row
+                            h3
+                                a(href="mailto:HollyAndMikeMasonWedding@gmail.com", style="color: white;") HollyAndMikeMasonWedding@gmail.com
+                        .row
+                            .col-md-6.col-md-offset-3
+                                img.footer-image(src='/img/wine_time.jpg', style="width: 100%; margin-bottom: 50px;")
 
     script(src='/js/jquery.min.js')
     script(src="/js/jquery.parallax.min.js")
