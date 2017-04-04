@@ -9,6 +9,10 @@ body, html, .starlight{
     background-color: transparent; /* #6a288a !important; */
 }
 
+html{
+    overflow-x: hidden;
+}
+
 .navbar-hmm{
     background-color: #501770;
 }
@@ -93,7 +97,7 @@ ul.navbar-nav > li.active > a{
 .layer{
     width: 100%;
     height: 100%;
-    padding: -40px;
+    overflow: hidden;
 }
 
 .bigtext{
