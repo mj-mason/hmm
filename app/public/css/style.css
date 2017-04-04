@@ -153,6 +153,14 @@ html {
     display: inline-block;
 }
 
+.footer-image{
+    width: 100%;
+    border-color: yellow;
+    border-width: 3px;
+    border-radius: 10px;
+    border-style: solid;
+}
+
 section{
     min-height: 100%;
     padding-top: 50px;

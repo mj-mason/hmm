@@ -37,7 +37,7 @@ html
                         li
                             a.page-scroll(href='#events') Wedding Events
                         li
-                            a.page-scroll(href='#hotels') Accomodations
+                            a.page-scroll(href='#hotels') Accommodations
                         li
                             a.page-scroll(href='#reno') Reno
                         li
@@ -128,7 +128,7 @@ html
             .container
                 .row
                     .col-lg-12.text-left
-                        h1.text-center Accomodations
+                        h1.text-center Accommodations
                         h2 Group Rate Hotel
                         a(href="http://www.marriott.com/meeting-event-hotels/group-corporate-travel/groupCorp.mi?resLinkData=Mason%20and%20Spohn%20Wedding%20Block%5ERNORI%60SWZSWZA%7CSWZSWZB%7CSWZSWZC%60119-199%60USD%60false%605%6010/7/17%6010/9/17%609/7/17&amp;app=resvlink&amp;stop_mobi=yes", target="_blank")
                             h4.
@@ -157,50 +157,51 @@ html
                         //#collapseExample.collapse(style="padding-top: 20px;")
                         div.overlay(onClick="style.pointerEvents='none'")
                         iframe(src="https://www.google.com/maps/d/embed?mid=13s7Qet9Dp5-zMq6AiyS-4H1_gvc&hl=en", width="75%", height="480")
-        section#reno.reno-section
-            .container
+        section#reno.reno-section.vertical-center
+            .container.center-block
                 .row
                     .col-lg-12
                         h1 Things to do in Reno
-                        p todo: fill this out
-        section#registry.registry-section
-            .container
+                        p Coming soon!
+        section#registry.registry-section.vertical-center
+            .container.center-block
                 .row
                     .col-lg-12
                         h1 Gift Registry
                         p Click a logo below to be taken to our registries on those sites.
                 .row
                     hr.purple-split
+                .row(style="padding-top:50px;")
+                    .col-md-6.col-md-offset-3
+                        a(href="https://www.macys.com/wgl/registry/guest/6760391", target="_blank")
+                            img(src='/img/macys.png', style='width: 70%')
+                .row(style="padding-top:50px;")
+                    .col-md-6.col-md-offset-3
+                        a(href="https://smile.amazon.com/wedding/holly-spohn-mike-mason-reno-october-2017/registry/1I3W28RF85GAD", target="_blank")
+                            img(src='/img/amazon.png', style='width: 70%')
+        section#contact.contact-section.vertical-center
+            .container.center-block
                 .row
-                    .col-md-6
-                        .row(style="padding-top:50px;")
-                            a(href="http://macys.com", target="_blank")
-                                img(src='/img/macys.png', style='width: 70%')
-                    .col-md-6
-                        .row(style="padding-top:50px;")
-                            a(href="http://amazon.com", target="_blank")
-                                img(src='/img/amazon.png', style='width: 70%')
-        section#contact.contact-section
-            .container
+                    h1 Contact Us
                 .row
-                    .col-lg-12
-                        h1 Contact Us
-                .row.text-left
-                    .col-md-4
-                        p Please email us to:
-                        ul
-                            li
-                                p Request a song
-                            li
-                                p Ask a question
-                            li
-                                p Tell us a joke
-                            li
-                                p Just to say hi!
+                    h2 Please email us to:
+                .row
+                    ul(style='list-style: none;')
+                        li
+                            p Request a song
+                        li
+                            p Ask a question
+                        li
+                            p Tell us a joke
+                        li
+                            p Just to say hi!
 
-                        p Email us any time at <a href="mailto:mikeandholly@gmail.com">mikeandholly@gmail.com</a>.
-                    .col-md-8
-                        p image of mike and holly here
+                .row
+                    h3
+                        a(href="mailto:HollyAndMikeMasonWedding@gmail.com", style="color: white;") HollyAndMikeMasonWedding@gmail.com
+                .row
+                    .col-md-6.col-md-offset-3
+                        img.footer-image(src='/img/wine_time.jpg', width='100%')
 
     script(src='/js/jquery.min.js')
     script(src="/js/jquery.parallax.min.js")
