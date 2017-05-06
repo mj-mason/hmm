@@ -168,9 +168,17 @@ html
         section#reno.reno-section.vertical-center
             .container.center-block
                 .row
-                    .col-lg-12
-                        h1 Things to do in Reno
-                        p Coming soon!
+                    h1 Things to do in Reno...
+                    .col-lg-12.text-left
+                        each cat, cat_title in todo
+                            h3 #{String(cat_title)}:
+                            each item, index in cat
+                                p
+                                    -if (item.highlight)
+                                        i.glyphicon.glyphicon-star
+                                    span.bold
+                                        a(href="#{item.link}") #{item.title}
+                                    span  - #{item.desc}
         section#registry.registry-section.vertical-center
             .container.center-block
                 .row

@@ -212,8 +212,14 @@ section strong{
     color: white;
 }
 
-#events a{
+#events a, #reno a{
     color: white;
+    text-decoration: underline;
+}
+
+#reno i{
+    color: yellow;
+    padding-right: 5px;
 }
 
 .hotels-section {
