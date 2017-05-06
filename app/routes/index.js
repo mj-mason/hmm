@@ -155,7 +155,7 @@ router.get('/', function (req, res, next) {
         'Shopping': [
             {
                 title: 'Junkee Clothing Exchange',
-                desc: 'Sprawling vintage shop offering an eclectic supply of secondhand apparel, antiques and furniture.',
+                desc: 'Sprawling vintage shop offering an eclectic supply of secondhand apparel, antiques and furniture',
                 link: 'http://www.junkeeclothingexchange.com/',
                 highlight: true
             },
