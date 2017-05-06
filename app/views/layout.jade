@@ -91,7 +91,7 @@ html
                 .row
                     .col-lg-12
                         h1 Wedding Events
-                        p We are delighted to have you join us for our wedding celebration weekend. That includes our big day on Sunday, October 8th. We’ve also planned a night-before gathering on Saturday, October 7th if you’d like to hang out with us even more.
+                        p We are delighted to have you join us for our wedding celebration weekend.  We’ve planned a night-before gathering on Saturday, October 7th if you’d like to hang out with us before the big day on Sunday, October 8th.
                         p We’d love you to join us for both events if you can!
                 .row.hidden-sm.hidden-xs
                     hr.yellow-split
@@ -107,7 +107,7 @@ html
                                 Stamp Social Club @ The Basement<br>
                                 50 South Virginia Street<br>
                                 Reno, NV  89501
-                        p Join us Saturday night for a chill (optional) evening of fresh cocktails, beer and wine in a funky new downtown setting. Stamp Social Club is part of The Basement Reno, located beneath the historic 1933 U.S. Post Office. Inspired by global travel, Stamp serves creative cocktails and elevated hospitality in a positive, social atmosphere. The first round of beer, wine, or well drink is on us! No need to RSVP, just come and go as you please. If you’re looking for a place to grab dinner first there are plenty of diverse options in the downtown area, or close by in the Midtown district. Feel free to contact us for more specific dinner recommendations.
+                        p Join us Saturday night for a chill (optional) evening of fresh cocktails, beer and wine in a funky new downtown setting. Stamp Social Club is part of The Basement Reno, located beneath the historic 1933 U.S. Post Office. Inspired by global travel, Stamp serves creative cocktails and elevated hospitality in a positive, social atmosphere. The first round of beer, wine, or well drink is on us! No need to RSVP, just come and go as you please. If you’re looking for a place to grab dinner first there are plenty of diverse options in the downtown area, or close by in the Midtown district. Feel free to <a class="page-scroll" href="#contact" style="text-decoration: underline;">contact us</a> for more specific dinner recommendations.
                 .row
                     .col-md-3.hidden-md.hidden-lg.vertical-center
                         a(href='http://www.thegrovereno.com/', target='_blank')
@@ -168,16 +168,18 @@ html
         section#reno.reno-section.vertical-center
             .container.center-block
                 .row
-                    h1 Things to do in Reno...
-                    .col-lg-12.text-left
-                        each cat, cat_title in todo
-                            h3 #{String(cat_title)}:
+                    h1 Things To Do in Reno
+                each cat, cat_title in todo
+                    .row.text-left
+                        h3 #{String(cat_title)}:
+                    .row.text-left
+                        .col-md-offset-1
                             each item, index in cat
                                 p
                                     -if (item.highlight)
                                         i.glyphicon.glyphicon-star
                                     span.bold
-                                        a(href="#{item.link}") #{item.title}
+                                        a(href="#{item.link}", target="_blank") #{item.title}
                                     span  - #{item.desc}
         section#registry.registry-section.vertical-center
             .container.center-block
@@ -185,7 +187,7 @@ html
                     .col-lg-12
                         h1 Gift Registry
                         p Where are we registered you ask? What would help make our home sparkle and shine you ask? Keep scrolling and those answers will be revealed to you! If you order online through these links your gifts will automatically be shipped to our home address.
-                        p If you’d like to ship the gifts some other way, please contact us for our address.
+                        p If you’d like to ship the gifts some other way, please <a class="page-scroll" href="#contact" style="text-decoration: underline;">contact us</a> for our address.
                 .row
                     hr.purple-split
                 .row(style="padding-top:50px;")
@@ -210,10 +212,10 @@ html
                         .row
                             h2 Please email us to:
                         .row
+                            p RSVP
                             p Request a song
                             p Ask a question
                             p Tell us a joke
-                            p Just to say hi!
                         .row
                             h3
                                 a(href="mailto:HollyAndMikeMasonWedding@gmail.com", style="color: white; text-decoration: underline;") HollyAndMike&#8203;MasonWedding&#8203;@gmail.com

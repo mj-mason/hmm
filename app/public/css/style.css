@@ -217,6 +217,10 @@ section strong{
     text-decoration: underline;
 }
 
+#hotels a{
+    text-decoration: underline;
+}
+
 #reno i{
     color: yellow;
     padding-right: 5px;
