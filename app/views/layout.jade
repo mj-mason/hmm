@@ -171,9 +171,10 @@ html
                     h1 Things To Do in Reno
                 each cat, cat_title in todo
                     .row.text-left
-                        h3 #{String(cat_title)}:
+                        .col-md-12
+                            h3 #{String(cat_title)}:
                     .row.text-left
-                        .col-md-offset-1
+                        .col-md-offset-1.col-md-11
                             each item, index in cat
                                 p
                                     -if (item.highlight)

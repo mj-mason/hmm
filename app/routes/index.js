@@ -13,7 +13,7 @@ router.get('/', function (req, res, next) {
             },
             {
                 title: 'Discovery Museum',
-                desc: 'Fun, hands-on science for all ages',
+                desc: 'Fun, hands-on science for all ages (seriously, all ages)',
                 link: 'https://www.nvdm.org/',
                 highlight: true
             },
@@ -51,9 +51,21 @@ router.get('/', function (req, res, next) {
             },
             {
                 title: 'RiverWalk District',
-                desc: 'Take a stroll downtown along the Truckee River and savor Reno’s exciting urban renaissance',
+                desc: 'Take a stroll downtown along the Truckee River and savor Reno’s exciting urban renaissance.  Grab a cup of tea at Hub on your way',
                 link: 'http://renoriver.org/',
                 highlight: true
+            },
+            {
+                title: 'Donner Memorial State Park',
+                desc: 'Opportunities for camping, picnicking, boating, fishing, water-skiing, and hiking',
+                link: 'https://www.parks.ca.gov/?page_id=503',
+                highlight: false
+            },
+            {
+                title: 'Truckee, CA',
+                desc: 'A cozy city just across the Nevada border, it\'s California without the headache',
+                link: 'http://www.truckee.com/',
+                highlight: false
             }
         ],
         'Educational': [
@@ -74,6 +86,12 @@ router.get('/', function (req, res, next) {
                 desc: 'Located on the University of Nevada Reno campus, open to the public, offers daily digital planetarium shows in a dome theater',
                 link: 'http://www.planetarium.unr.edu/',
                 highlight: false
+            },
+            {
+                title: 'Reno Tahoe Visitor Center',
+                desc: 'The starting point for all things Reno',
+                link: 'https://www.visitrenotahoe.com/',
+                highlight: false
             }
         ],
         '21 and Up': [
@@ -91,7 +109,7 @@ router.get('/', function (req, res, next) {
             },
             {
                 title: 'Craft',
-                desc: 'Largest selection of beer and wine in the city, hundreds of beers from all over the world with regular rotating taps',
+                desc: 'Largest selection of beer and wine in the city, hundreds of beers from all over the world with regular rotating taps - our favorite place to grab a beer',
                 link: 'http://www.craftreno.net/',
                 highlight: true
             },
@@ -103,7 +121,7 @@ router.get('/', function (req, res, next) {
             },
             {
                 title: 'Beer NV',
-                desc: 'Laid back and modern bar with a large local craft selection, very close to the wedding venue',
+                desc: 'Laid back and modern bar with a large local craft selection (60 taps), very close to the wedding venue',
                 link: 'http://beernv.com/',
                 highlight: false
             }
@@ -113,11 +131,11 @@ router.get('/', function (req, res, next) {
                 title: 'Rickshaw\'s All You Can Eat Sushi',
                 desc: 'In our opinion, the very best of Reno’s many all-you-can-eat sushi establishments',
                 link: 'https://www.tripadvisor.com/Restaurant_Review-g45992-d3610024-Reviews-Rickshaw_Sushi-Reno_Nevada.html',
-                highlight: false
+                highlight: true
             },
             {
                 title: 'The Awful Awful (Little Nugget Diner)',
-                desc: 'Finish off a night of drunken frivolity with this amazing hole-in-the-wall burger joint',
+                desc: 'Finish off a night in downtown Reno with this amazing hole-in-the-wall burger joint',
                 link: 'http://awfulawfulburgerreno.wixsite.com/awfulawfulburgerreno',
                 highlight: false
             },
@@ -137,11 +155,11 @@ router.get('/', function (req, res, next) {
                 title: 'Peg\'s Glorified Ham and Eggs',
                 desc: 'Local favorite for breakfast, popular and friendly',
                 link: 'http://eatatpegs.com/',
-                highlight: false
+                highlight: true
             },
             {
                 title: 'Thai Lotus',
-                desc: 'Great Thai food at a great price',
+                desc: 'Yummy Thai food.  Red Curry Pot Stickers are a great appetizer',
                 link: 'http://www.thailotusreno.com/',
                 highlight: false
             },
@@ -150,12 +168,18 @@ router.get('/', function (req, res, next) {
                 desc: 'Excellent ice cream sandwiches, just outside Junkee Clothing Exchange',
                 link: 'http://www.simpleicecreamsandwiches.com/',
                 highlight: false
+            },
+            {
+                title: 'BJ\'s Brewhouse',
+                desc: 'Energetic American family-friendly brewhouse with a huge selection (seriously the menu is physically heavy).  Holly suggests the Pink Cadillac cocktail',
+                link: 'https://www.bjsrestaurants.com/locations/nv/reno',
+                highlight: false
             }
         ],
         'Shopping': [
             {
                 title: 'Junkee Clothing Exchange',
-                desc: 'Sprawling vintage shop offering an eclectic supply of secondhand apparel, antiques and furniture',
+                desc: 'Sprawling vintage shop offering an eclectic supply of secondhand apparel, antiques and furniture: "OMG let\'s go to JUNKEES" - Holly pretty much every Saturday',
                 link: 'http://www.junkeeclothingexchange.com/',
                 highlight: true
             },
@@ -173,8 +197,14 @@ router.get('/', function (req, res, next) {
             },
             {
                 title: 'Outlets at Sparks',
-                desc: 'Shopping, food, drink, and entertainment hub',
+                desc: 'Shopping, food, drink, and entertainment hub - "Is that an INDOOR ferris wheel??" (Scheels)',
                 link: 'http://www.outletsatsparks.com/',
+                highlight: false
+            },
+            {
+                title: 'Meadowood Mall',
+                desc: 'Macy\'s, JCP, Sears... anything you need if you forget to pack things like Mike does :)',
+                link: 'http://www.simon.com/mall/meadowood-mall',
                 highlight: false
             }
         ],
@@ -195,7 +225,7 @@ router.get('/', function (req, res, next) {
                 title: 'Pioneer Underground',
                 desc: 'Hilarious stand up comedy located underground downtown Reno',
                 link: 'http://pioneercenter.com/underground/',
-                highlight: false
+                highlight: true
             },
             {
                 title: 'Galaxy Luxury + IMAX Theater',
@@ -207,7 +237,7 @@ router.get('/', function (req, res, next) {
         'Seasonal': [
             {
                 title: '28th Annual World Championship Outhouse Races - October 7 & 8, 2017',
-                desc: 'Teams of three are pitted against each other in an all-out potty race to claim the latrine title!',
+                desc: 'Located in Virginia City, about 45 mins south of Reno, teams of three are pitted against each other in an all-out potty race to claim the latrine title!',
                 link: 'http://www.visitvirginiacitynv.com/events/world-championship-outhouse-races.html',
                 highlight: false
             },
