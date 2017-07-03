@@ -146,10 +146,16 @@ router.get('/', function (req, res, next) {
                 highlight: true
             },
             {
-                title: 'Kimmie\'s Coffee Cup',
+                title: 'The Cup Cafe',
                 desc: 'Breakfast and lunch in a cute and comfy diner atmosphere',
                 link: 'http://breakfastatkimmies.com/',
                 highlight: false
+            },
+            {
+                title: 'Laughing Planet',
+                desc: 'Hidden but hip, this trendy place embodies the new Reno Midtown',
+                link: 'http://laughingplanetcafe.com',
+                highlight: true
             },
             {
                 title: 'Peg\'s Glorified Ham and Eggs',
@@ -170,6 +176,11 @@ router.get('/', function (req, res, next) {
                 highlight: false
             },
             {
+                title: 'Great Full Gardens',
+                desc: 'Reno\'s go-to vegan or gulten free dining, with plenty of options for carnivores.',
+                link: 'http://greatfullgardens.com',
+                highlight: true
+            }, {
                 title: 'BJ\'s Brewhouse',
                 desc: 'Energetic American family-friendly brewhouse with a huge selection (seriously the menu is physically heavy).  Holly suggests the Pink Cadillac cocktail',
                 link: 'https://www.bjsrestaurants.com/locations/nv/reno',
